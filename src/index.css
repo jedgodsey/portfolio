@@ -32,6 +32,10 @@ video {
   left: 0;
   top: 0;
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header {
@@ -55,6 +59,20 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background: white;
+  opacity: 50%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.content {
+  width: 75vw;
+  height: 800px;
   background: white;
   opacity: 50%;
 }
