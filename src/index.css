@@ -76,3 +76,32 @@ main {
   background: white;
   opacity: 50%;
 }
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.project {
+  width: 45%;
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.show {
+  height: 100%;
+  width: auto;
+}
+
+.tell {
+  height: 100%;
+}
+
+.screen-shot {
+  height: 300px;
+  width: auto;
+}
