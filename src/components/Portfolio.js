@@ -84,7 +84,7 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>My Friend Roscoe</h2>
-            <p>MY Friend Roscoe is a simple 'Tamagotchi' type game based on the user's relationship with a digital urban raccoon.</p>
+            <p>My Friend Roscoe is a simple 'Tamagotchi' type game based on the user's relationship with a digital urban raccoon.</p>
           </div>
           <div className="applinks">
             <div className="deployed">
