@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import logo from './assets/logo.svg'
 
 class App extends Component {
   state = {
@@ -36,7 +37,7 @@ class App extends Component {
         <div id="content">
           <header>
             <div id="jed">
-              JED
+              <img src={logo} alt="Jed Logo" />
             </div>
             <div id="options">
               <div id="nav-background"></div>
