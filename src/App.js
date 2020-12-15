@@ -51,7 +51,7 @@ class App extends Component {
     return (
       <>
         <div id="background">
-          <video key={this.state.videoURL} id="background-video" loop autoPlay>
+          <video key={this.state.videoURL} id="background-video" loop autoPlay muted>
             <source src={this.state.videoURL} type="video/mp4" />
             <source src={this.state.videoURL} type="video/ogg" />
           </video>
