@@ -66,7 +66,7 @@ class App extends Component {
               <nav>
                 <div onClick={this.handleAboutClick} className="select"><h1>About Me</h1></div>
                 <div onClick={this.handlePortfolioClick} className="select"><h1>Portfolio</h1></div>
-                <div className="select"><h1><a href="https://drive.google.com/file/d/1ZN1Cvj2rtAE64ZDMZImtJz3q9WrfM4FR/view?usp=sharing">Experience</a></h1></div>
+                <div className="select"><h1><a href="https://drive.google.com/file/d/1ZN1Cvj2rtAE64ZDMZImtJz3q9WrfM4FR/view?usp=sharing" target="_blank">Experience</a></h1></div>
                 <div onClick={this.handleContactClick}className="select"><h1>Contact</h1></div>
               </nav>
             </div>

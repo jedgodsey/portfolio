@@ -61,7 +61,7 @@ header {
 #jed {
   width: 20vw;
   height: 200px;
-  /* opacity: 80%; */
+  opacity: .8;
 }
 
 #options {
