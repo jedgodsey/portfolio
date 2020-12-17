@@ -61,7 +61,7 @@ header {
 #jed {
   width: 20vw;
   height: 200px;
-  opacity: .5;
+  opacity: .6;
 }
 
 #options {
@@ -91,7 +91,6 @@ main {
 .content {
   width: 80vw;
   height: 800px;
-  /* background-color: rgba(255, 255, 255, 0.3); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +107,7 @@ main {
 
 .project {
   width: 47%;
-  height: 45%;
+  height: 39.4%;
   margin: 30px 15px;
   display: flex;
   justify-content: space-between;
@@ -120,17 +119,13 @@ main {
 }
 
 .tell {
-  height: 100%;
-  margin: 10px;
+  height: 95%;
+  /* margin: 10px; */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.tell h2 {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6)
 }
 
 .screen-shot {
@@ -139,17 +134,21 @@ main {
 }
 
 .apptext {
-  height: 50%;
+  padding: 10px;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+.apptext h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .applinks {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .deployed {

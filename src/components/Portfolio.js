@@ -15,17 +15,17 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>walk-with-me</h2>
-            <p>"Walk With Me" is a Node.js/Express application, built with a partner that allows users to sign up to walk dogs at RescuePup, our fictional dog shelter.</p>
+            "Walk With Me" is a Node.js/Express application, built with a partner that allows users to sign up to walk dogs at RescuePup, our fictional dog shelter.
           </div>
           <div className="applinks">
             <div className="deployed">
-              <p>deployed:</p>
+              deployed:
               <a href="https://sheltered-bastion-54041.herokuapp.com" target="_blank">
                 <img src={rescuelink} className="link-logo" />
               </a>
             </div>
             <div className="repo">
-              <p>repo:</p>
+              repo:
               <a href="https://github.com/jedgodsey/walk-with-me" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
@@ -38,17 +38,17 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>MYNDEX</h2>
-            <p>Myndex is an application built with React, Express, Node.js and MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indeces</p>
+            Myndex is an application built with React, Express, Node.js and MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indeces
           </div>
           <div className="applinks">
             <div className="deployed">
-              <p>deployed:</p>
+              deployed:
               <a href="https://secure-lowlands-61590.herokuapp.com/">
                 <img src={myndexlink} className="link-logo" />
               </a>
             </div>
             <div className="repo">
-              <p>repo:</p>
+              repo:
               <a href="https://github.com/jedgodsey/walk-with-me" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
@@ -61,17 +61,17 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>DRYFT</h2>
-            <p>Dryft is a Python application using Django and PostgresQL that allows travelers to blog and share pictures about their favorite places</p>
+            Dryft is a Python application using Django and PostgresQL that allows travelers to blog and share pictures about their favorite places
           </div>
           <div className="applinks">
             <div className="deployed">
-              <p>deployed:</p>
+              deployed:
               <a href="https://dryft.herokuapp.com/" target="_blank">
                 <img src={dryftlink} className="link-logo" />
               </a>
             </div>
             <div className="repo">
-              <p>repo:</p>
+              repo:
               <a href="https://github.com/jedgodsey/walk-with-me" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
@@ -84,17 +84,17 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>My Friend Roscoe</h2>
-            <p>My Friend Roscoe is a simple 'Tamagotchi' type game based on the user's relationship with a digital urban raccoon.</p>
+            My Friend Roscoe is a simple 'Tamagotchi' type game based on the user's relationship with a digital urban raccoon.
           </div>
           <div className="applinks">
             <div className="deployed">
-              <p>deployed:</p>
+              deployed:
               <a href="https://jedgodsey.github.io/my-friend-roscoe/" target="_blank">
                 <img src={roscoelink} className="link-logo" />
               </a>
             </div>
             <div className="repo">
-              <p>repo:</p>
+              repo:
               <a href="https://github.com/jedgodsey/walk-with-me" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
