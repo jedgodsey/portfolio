@@ -28,14 +28,13 @@ a:link, a:visited {
 }
 
 video {
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 #background {
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
@@ -43,14 +42,14 @@ video {
 
 #content {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   left: 0;
   top: 0;
   position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 header {
@@ -60,7 +59,6 @@ header {
 
 #jed {
   width: 20vw;
-  height: 200px;
   opacity: .6;
 }
 
@@ -85,12 +83,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px;
 }
 
 .content {
-  width: 80vw;
-  height: 800px;
+  max-width: 95vw;
+  min-height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,14 +98,12 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  height: 100%;
 }
 
 .project {
-  width: 47%;
-  height: 39.4%;
-  margin: 30px 15px;
+  width: 525px;
+  height: 250px;
+  margin: 35px auto 0px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -119,17 +114,18 @@ main {
 }
 
 .tell {
-  height: 95%;
+  height: 100%;
   /* margin: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.6)
+  background-color: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
 }
 
 .screen-shot {
-  height: 300px;
+  height: 100%;
   width: auto;
 }
 
