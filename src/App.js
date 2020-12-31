@@ -45,7 +45,9 @@ const App = () => {
         </header>
         <main>
           <div className="content">
-            {showView()}
+            <div id="spacer">
+              {showView()}
+            </div>
           </div>            
         </main>
       </div>
