@@ -54,5 +54,3 @@ const App = () => {
 };
 
 export default App;
-
-// old link: 'https://assets.mixkit.co/videos/preview/mixkit-haze-across-the-desert-22146-large.mp4'

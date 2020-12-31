@@ -38,7 +38,7 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>MYNDEX</h2>
-            Myndex is an application built with React, Express, Node.js and MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indeces
+            Myndex is an application built with React, Express, Node.js & MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indeces
           </div>
           <div className="applinks">
             <div className="deployed">
