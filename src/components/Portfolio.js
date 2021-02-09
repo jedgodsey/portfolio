@@ -1,10 +1,12 @@
 import walkscreen from '../assets/walk-with-me-screen.png';
 import roscoescreen from '../assets/roscoe-screen.png';
 import dryftscreen from '../assets/dryft-screen.png';
+import jsonscreen from '../assets/json-screen.png';
 import myndexscreen from '../assets/myndex-screen.png';
 import rescuelink from '../assets/rescue-link.svg';
 import roscoelink from '../assets/roscoe-link.svg';
 import dryftlink from '../assets/dryft-link.svg';
+import jsonlink from '../assets/json-link.svg';
 import myndexlink from '../assets/myndex-link.svg';
 
 let Portfolio = () => {
@@ -49,7 +51,7 @@ let Portfolio = () => {
             </div>
             <div className="repo">
               repo:
-              <a href="https://github.com/jedgodsey/walk-with-me" target="_blank">
+              <a href="https://github.com/jedgodsey/myndex-MERN" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
             </div>
@@ -57,22 +59,22 @@ let Portfolio = () => {
         </div>
       </div>
       <div className="project">
-        <div className="show"><img src={dryftscreen} className="screen-shot" /></div>
+        <div className="show"><img src={jsonscreen} className="screen-shot" /></div>
         <div className="tell">
           <div className="apptext">
-            <h2>DRYFT</h2>
-            Dryft is a Python application using Django and PostgresQL that allows travelers to blog and share pictures about their favorite places
+            <h2>From the Slums of JSON</h2>
+            FSJ is a REST API that anyone can use for testing or prototyping inspired by the Wu-Tang Clan. Made with Pythong/Django/PostgreSQL
           </div>
           <div className="applinks">
             <div className="deployed">
               deployed:
-              <a href="https://dryft.herokuapp.com/" target="_blank">
-                <img src={dryftlink} className="link-logo" />
+              <a href="https://slumsofjson.herokuapp.com/" target="_blank">
+                <img src={jsonlink} className="link-logo" />
               </a>
             </div>
             <div className="repo">
               repo:
-              <a href="https://github.com/jedgodsey/walk-with-me" target="_blank">
+              <a href="https://github.com/jedgodsey/slumsofJSON" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
             </div>
@@ -95,7 +97,7 @@ let Portfolio = () => {
             </div>
             <div className="repo">
               repo:
-              <a href="https://github.com/jedgodsey/walk-with-me" target="_blank">
+              <a href="https://github.com/jedgodsey/my-friend-roscoe" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
             </div>
