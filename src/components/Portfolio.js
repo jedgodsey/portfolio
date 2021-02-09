@@ -1,11 +1,9 @@
 import walkscreen from '../assets/walk-with-me-screen.png';
 import roscoescreen from '../assets/roscoe-screen.png';
-import dryftscreen from '../assets/dryft-screen.png';
 import jsonscreen from '../assets/json-screen.png';
 import myndexscreen from '../assets/myndex-screen.png';
 import rescuelink from '../assets/rescue-link.svg';
 import roscoelink from '../assets/roscoe-link.svg';
-import dryftlink from '../assets/dryft-link.svg';
 import jsonlink from '../assets/json-link.svg';
 import myndexlink from '../assets/myndex-link.svg';
 
@@ -17,7 +15,7 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>walk-with-me</h2>
-            "Walk With Me" is a Node.js/Express application, built with a partner that allows users to sign up to walk dogs at RescuePup, our fictional dog shelter.
+            A Node.js/Express application, built with a partner that allows users to sign up to walk dogs at RescuePup, our fictional dog shelter.
           </div>
           <div className="applinks">
             <div className="deployed">
@@ -40,7 +38,7 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>MYNDEX</h2>
-            Myndex is an application built with React, Express, Node.js & MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indeces
+            An application built with React, Express, Node.js & MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indeces
           </div>
           <div className="applinks">
             <div className="deployed">
@@ -63,7 +61,7 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>From the Slums of JSON</h2>
-            FSJ is a REST API that anyone can use for testing or prototyping inspired by the Wu-Tang Clan. Made with Pythong/Django/PostgreSQL
+            REST API anyone can use for testing or mockup inspired by the Wu-Tang Clan. Uses Python, Django & PostgreSQL
           </div>
           <div className="applinks">
             <div className="deployed">
@@ -86,7 +84,7 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>My Friend Roscoe</h2>
-            My Friend Roscoe is a simple 'Tamagotchi' type game based on the user's relationship with a digital urban raccoon.
+            Simple 'Tamagotchi' type game based on the user's relationship with a digital urban raccoon.
           </div>
           <div className="applinks">
             <div className="deployed">
