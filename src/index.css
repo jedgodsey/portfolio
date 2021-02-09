@@ -105,6 +105,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  max-width: 1400px;
 }
 
 .project {

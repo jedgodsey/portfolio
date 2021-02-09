@@ -9,7 +9,31 @@ import myndexlink from '../assets/myndex-link.svg';
 
 let Portfolio = () => {
   return(
+    
     <div id="projects">
+      <div className="project">
+        <div className="show"><img src={jsonscreen} className="screen-shot" /></div>
+        <div className="tell">
+          <div className="apptext">
+            <h2>From the Slums of JSON</h2>
+            REST API anyone can use for testing or mockup inspired by the Wu-Tang Clan. Uses Python, Django & PostgreSQL
+          </div>
+          <div className="applinks">
+            <div className="deployed">
+              deployed:
+              <a href="https://slumsofjson.herokuapp.com/" target="_blank">
+                <img src={jsonlink} className="link-logo" />
+              </a>
+            </div>
+            <div className="repo">
+              repo:
+              <a href="https://github.com/jedgodsey/slumsofJSON" target="_blank">
+                <i className="fab fa-github-alt fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="project">
         <div className="show"><img src={walkscreen} className="screen-shot" /></div>
         <div className="tell">
@@ -33,6 +57,7 @@ let Portfolio = () => {
           </div>
         </div>
       </div>
+      
       <div className="project">
         <div className="show"><img src={myndexscreen} className="screen-shot" /></div>
         <div className="tell">
@@ -50,29 +75,6 @@ let Portfolio = () => {
             <div className="repo">
               repo:
               <a href="https://github.com/jedgodsey/myndex-MERN" target="_blank">
-                <i className="fab fa-github-alt fa-2x"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="project">
-        <div className="show"><img src={jsonscreen} className="screen-shot" /></div>
-        <div className="tell">
-          <div className="apptext">
-            <h2>From the Slums of JSON</h2>
-            REST API anyone can use for testing or mockup inspired by the Wu-Tang Clan. Uses Python, Django & PostgreSQL
-          </div>
-          <div className="applinks">
-            <div className="deployed">
-              deployed:
-              <a href="https://slumsofjson.herokuapp.com/" target="_blank">
-                <img src={jsonlink} className="link-logo" />
-              </a>
-            </div>
-            <div className="repo">
-              repo:
-              <a href="https://github.com/jedgodsey/slumsofJSON" target="_blank">
                 <i className="fab fa-github-alt fa-2x"></i>
               </a>
             </div>
