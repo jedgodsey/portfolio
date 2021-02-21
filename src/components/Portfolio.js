@@ -63,7 +63,7 @@ let Portfolio = () => {
         <div className="tell">
           <div className="apptext">
             <h2>MYNDEX</h2>
-            An application built with React, Express, Node.js & MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indeces
+            An application built with React, Express, Node.js & MongoDB that integrates the Tradier API to allow users to create and monitor custom stock market indices
           </div>
           <div className="applinks">
             <div className="deployed">
