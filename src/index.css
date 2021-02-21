@@ -55,11 +55,18 @@ video {
 header {
   display: flex;
   justify-content: space-between;
+
+  /* height: 15vh; */
 }
 
 #jed {
   width: 16vw;
   opacity: .6;
+}
+
+#no-jed {
+  width: 16vw;
+  opacity: .0;
 }
 
 #options {
@@ -88,8 +95,11 @@ nav {
 
 main {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+
+  overflow-y: auto;
+  height: 85vh;
 }
 
 .content {
