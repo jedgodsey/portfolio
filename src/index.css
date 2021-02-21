@@ -114,8 +114,8 @@ main {
 }
 
 .project {
-  width: 500px;
-  height: 240px;
+  width: 550px;
+  height: 270px;
   margin: 0px auto 25px auto;
   display: flex;
   justify-content: space-between;
@@ -145,11 +145,13 @@ main {
   padding: 10px;
   margin-block-start: 0em;
   margin-block-end: 0em;
+  line-height: 1;
 }
 
 .apptext h2 {
   margin-block-start: 0em;
-  margin-block-end: 0em;
+  margin-block-end: .5em;
+  line-height: .9;
 }
 
 .applinks {
