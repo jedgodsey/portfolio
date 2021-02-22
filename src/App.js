@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import ReactGa from 'react-ga';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -6,6 +7,11 @@ import logo from './assets/logo.svg'
 
 const App = () => {
   let [ vid, setVid ] = useState('https://assets.mixkit.co/videos/preview/mixkit-winter-storm-over-a-small-town-15500-large.mp4');
+
+  useEffect(() => {
+    ReactGa.initialize('G-W774ZDYYZR')
+    ReactGa.pageview('/')
+  }, [])
 
   let showView = () => {
     switch (vid) {
