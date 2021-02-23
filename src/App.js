@@ -9,7 +9,7 @@ const App = () => {
   let [ vid, setVid ] = useState('https://assets.mixkit.co/videos/preview/mixkit-winter-storm-over-a-small-town-15500-large.mp4');
 
   useEffect(() => {
-    ReactGa.initialize('G-W774ZDYYZR')
+    ReactGa.initialize('UA-263219709-1')
     ReactGa.pageview('/')
   }, [])
 
@@ -44,7 +44,7 @@ const App = () => {
             <nav>
               <div onClick={() => setVid('https://assets.mixkit.co/videos/preview/mixkit-winter-storm-over-a-small-town-15500-large.mp4')} className="select"><h1>About Me</h1></div>
               <div onClick={() => setVid('https://storage.coverr.co/videos/PMVhqGEtrFe6M28NtL4LTP7MKO01LeL01G?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA4MjM1NDIzfQ.pnH_km0f62MsJguUc_0vynHk7HZttzWemSKrv6Zf9Ac')} className="select"><h1>Portfolio</h1></div>
-              <div className="select"><h1><a href="https://drive.google.com/file/d/1Vi4m1KmeD2x-r8S7otnFuQUmLYy1BThr/view?usp=sharing" target="_blank" rel="noreferrer">Experience</a></h1></div>
+              <div className="select"><h1><a href="https://drive.google.com/file/d/1efm8tQ7FcILvL01F3N5AE8hMZ-Xg_AYZ/view?usp=sharing" target="_blank" rel="noreferrer">Experience</a></h1></div>
               <div onClick={() => setVid('https://assets.mixkit.co/videos/preview/mixkit-rain-splashing-on-a-fish-pond-28101-large.mp4')}className="select"><h1>Contact</h1></div>
             </nav>
           </div>
