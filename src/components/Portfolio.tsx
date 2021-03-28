@@ -1,21 +1,21 @@
-// import walkscreen from '../assets/walk-with-me-screen.png';
-// import roscoescreen from '../assets/roscoe-screen.png';
-// import jsonscreen from '../assets/json-screen.png';
-// import myndexscreen from '../assets/myndex-screen.png';
-// import rescuelink from '../assets/rescue-link.svg';
-// import roscoelink from '../assets/roscoe-link.svg';
-// import jsonlink from '../assets/json-link.svg';
-// import myndexlink from '../assets/myndex-link.svg';
-const walkscreen = require('../assets/walk-with-me-screen.png') as string;
-const roscoescreen = require('../assets/roscoe-screen.png') as string;
-const jsonscreen = require('../assets/json-screen.png') as string;
-const myndexscreen = require('../assets/myndex-screen.png') as string;
-const rescuelink = require('../assets/rescue-link.svg') as string;
-const roscoelink = require('../assets/roscoe-link.svg') as string;
-const jsonlink = require('../assets/json-link.svg') as string;
-const myndexlink = require('../assets/myndex-link.svg') as string;
+import walkscreen from '../assets/walk-with-me-screen.png';
+import roscoescreen from '../assets/roscoe-screen.png';
+import jsonscreen from '../assets/json-screen.png';
+import myndexscreen from '../assets/myndex-screen.png';
+import rescuelink from '../assets/rescue-link.svg';
+import roscoelink from '../assets/roscoe-link.svg';
+import jsonlink from '../assets/json-link.svg';
+import myndexlink from '../assets/myndex-link.svg';
+// const walkscreen = require('../assets/walk-with-me-screen.png') as string;
+// const roscoescreen = require('../assets/roscoe-screen.png') as string;
+// const jsonscreen = require('../assets/json-screen.png') as string;
+// const myndexscreen = require('../assets/myndex-screen.png') as string;
+// const rescuelink = require('../assets/rescue-link.svg') as string;
+// const roscoelink = require('../assets/roscoe-link.svg') as string;
+// const jsonlink = require('../assets/json-link.svg') as string;
+// const myndexlink = require('../assets/myndex-link.svg') as string;
 
-let Portfolio = () => {
+let Portfolio: React.FC = () => {
   return(
     
     <div id="projects">

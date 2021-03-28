@@ -1,4 +1,4 @@
-let Contact = () => {
+let Contact: React.FC = () => {
   return (
     <div className="contact">
       <h1>JED GODSEY</h1>
