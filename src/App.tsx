@@ -47,7 +47,7 @@ const App: React.FC = () => {
             <nav>
               <div onClick={() => setVid('https://assets.mixkit.co/videos/preview/mixkit-winter-storm-over-a-small-town-15500-large.mp4')} className="select"><h1>About Me</h1></div>
               <div onClick={() => setVid('https://storage.coverr.co/videos/PMVhqGEtrFe6M28NtL4LTP7MKO01LeL01G?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA4MjM1NDIzfQ.pnH_km0f62MsJguUc_0vynHk7HZttzWemSKrv6Zf9Ac')} className="select"><h1>Portfolio</h1></div>
-              <div className="select"><h1><a href="https://drive.google.com/file/d/16BRsDlH1BRU-VAS3ygYZQQLQVpZHWcR4/view?usp=sharing" target="_blank" rel="noreferrer">Experience</a></h1></div>
+              <div className="select"><h1><a href="https://drive.google.com/file/d/1bM69F9seB5wTXYaUON4YEbsx_a_-TpwE/view?usp=sharing" target="_blank" rel="noreferrer">Experience</a></h1></div>
               <div onClick={() => setVid('https://assets.mixkit.co/videos/preview/mixkit-rain-splashing-on-a-fish-pond-28101-large.mp4')}className="select"><h1>Contact</h1></div>
             </nav>
           </div>
